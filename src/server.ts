@@ -27,3 +27,5 @@ app.get('/api/health', async (req, res) => {
 });
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => { console.log(`CurbResale Backend running on port ${PORT}`); });
+
+export default app;
